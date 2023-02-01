@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Karla", sans-serif;
+}
+
+/* Header */
+.header--container {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  padding: 20px;
+}
+
+.header--logo {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header--title {
+  font-weight: 700;
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  margin-right: auto;
+}
+
+.header--app {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+}
+/* Main Content */
+.main--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form {
+  display: grid;
+  gap: 17px;
+  grid-template: 40px 40px / 1fr 1fr;
+  margin: 36px;
+}
+
+.form--input {
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  text-indent: 5px;
+}
+.form--btn {
+  font-family: "Karla", sans-serif;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  grid-column: 1 / -1;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.form--btn:hover {
+  color: black;
+}
+
+.img--container {
+  position: relative;
+  margin: 40px;
+  align-self: center;
+}
+.meme--image {
+  width: 100%;
+  max-width: 500px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+/*Footer*/
